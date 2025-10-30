@@ -35,7 +35,7 @@ const Footer = () => {
               </li>
               <li>
                 <FaPhone />
-                <a href="tel:+60113927916">+60 1139 279164</a>
+                <a href="https://wa.me/601139279164" target="_blank" rel="noopener noreferrer">+60 1139 279164</a>
               </li>
               <li>
                 <FaLinkedin />

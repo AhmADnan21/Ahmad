@@ -25,7 +25,7 @@ const Hero = () => {
               </div>
               <div className="info-item">
                 <FaPhone className="info-icon" />
-                <a href="tel:+60113927916">+60 1139 279164</a>
+                <a href="https://wa.me/601139279164" target="_blank" rel="noopener noreferrer">+60 1139 279164</a>
               </div>
               <div className="info-item">
                 <FaEnvelope className="info-icon" />
