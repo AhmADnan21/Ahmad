@@ -58,9 +58,11 @@ const Hero = () => {
           <div className="hero-image slide-in-right">
             <div className="profile-card">
               <div className="profile-avatar">
-                <div className="avatar-placeholder">
-                  <span>AA</span>
-                </div>
+                <img 
+                  src="/Ahmad.jpeg" 
+                  alt="Ahmad Abdullah - Senior QA Automation Engineer" 
+                  className="avatar-image"
+                />
               </div>
               <div className="profile-details">
                 <h3>Ahmad Abdullah</h3>
@@ -71,8 +73,8 @@ const Hero = () => {
                     <span className="stat-label">Years Exp.</span>
                   </div>
                   <div className="stat">
-                    <span className="stat-number">100+</span>
-                    <span className="stat-label">Projects</span>
+                    <span className="stat-number">Agile</span>
+                    <span className="stat-label">Scrum</span>
                   </div>
                   <div className="stat">
                     <span className="stat-number">ISTQB</span>
