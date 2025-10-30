@@ -17,8 +17,7 @@ const Skills = () => {
         'Test case design',
         'Functional testing',
         'Regression testing',
-        'UAT (User Acceptance Testing)',
-        'Exploratory testing'
+        'UAT (User Acceptance Testing)'
       ]
     },
     {
@@ -28,19 +27,17 @@ const Skills = () => {
         'Selenium (Python)',
         'Appium (Mobile Testing)',
         'BDD (Behave, Cucumber)',
-        'Page Object Model (POM)',
-        'Data-driven testing'
+        'Page Object Model (POM)'
       ]
     },
     {
       icon: <FaServer />,
-      title: 'AI-Driven Automation',
+      title: 'AI-Assisted Test Development',
       skills: [
         'Cursor AI for Selenium',
         'Cursor AI for Appium',
         'AI-assisted code generation',
-        'Code quality maintenance',
-        'Automated script optimization'
+        'Code quality maintenance'
       ]
     },
     {
@@ -50,7 +47,6 @@ const Skills = () => {
         'Postman',
         'Metersphere',
         'Endpoint validation',
-        'Status code verification',
         'Response payload testing'
       ]
     },
@@ -61,7 +57,6 @@ const Skills = () => {
         'Jira',
         'TestRail',
         'Bug lifecycle management',
-        'Test execution tracking',
         'Defect reporting'
       ]
     },
@@ -71,10 +66,17 @@ const Skills = () => {
       skills: [
         'Sprint planning',
         'Daily standups',
-        'Sprint retrospectives',
         'Git & GitHub',
-        'CI/CD (GitHub Actions)',
-        'Chrome DevTools'
+        'CI/CD (GitHub Actions)'
+      ]
+    },
+    {
+      icon: <FaCheckCircle />,
+      title: 'Performance Testing',
+      skills: [
+        'Chrome Lighthouse',
+        'Load analysis and optimization',
+        'Frontend performance tracking'
       ]
     }
   ]

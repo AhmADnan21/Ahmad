@@ -9,15 +9,16 @@ const Experience = () => {
       location: 'Kuala Lumpur',
       period: 'Aug 2024 – Present',
       current: true,
+      achievements: [
+        'Improved test reliability via reusable Selenium/Appium components',
+        'Boosted Chrome Lighthouse performance score by 25%',
+        'Reduced API testing turnaround by 30% through optimized test scenarios'
+      ],
       responsibilities: [
         'Designed and executed manual and automation test scenarios for web and mobile apps',
         'Automated core user flows using Selenium (Python) and Appium in BDD (Behave)',
         'Used Cursor AI to accelerate script development while maintaining logic control',
-        'Performed manual API testing and Chrome Lighthouse performance analysis (+25% score)'
-      ],
-      achievements: [
-        'Improved test reliability via reusable Selenium/Appium components',
-        'Boosted Chrome Lighthouse performance by 25%'
+        'Performed manual API testing and Chrome Lighthouse performance analysis'
       ]
     },
     {
@@ -26,14 +27,15 @@ const Experience = () => {
       location: 'Kuala Lumpur',
       period: 'Mar 2022 – Aug 2024',
       current: false,
+      achievements: [
+        'Reduced critical bug backlog by 70%',
+        'Improved regression test coverage by 40%',
+        'Enhanced QA collaboration and test efficiency across multiple sprints'
+      ],
       responsibilities: [
         'Participated in Agile sprints, created manual test cases, and executed regression tests',
         'Automated regression scenarios using Virtuoso (low-code)',
         'Executed UAT cycles, tracked bugs via Jira, and coordinated fixes with dev teams'
-      ],
-      achievements: [
-        'Reduced critical bug backlog by 70%',
-        'Improved QA collaboration and test efficiency'
       ]
     },
     {
@@ -92,13 +94,6 @@ const Experience = () => {
                 </div>
 
                 <div className="experience-details">
-                  <h5 className="details-subtitle">Responsibilities:</h5>
-                  <ul className="details-list">
-                    {exp.responsibilities.map((resp, idx) => (
-                      <li key={idx}>{resp}</li>
-                    ))}
-                  </ul>
-
                   {exp.achievements.length > 0 && (
                     <>
                       <h5 className="details-subtitle achievements-title">Key Achievements:</h5>
@@ -112,6 +107,13 @@ const Experience = () => {
                       </ul>
                     </>
                   )}
+
+                  <h5 className="details-subtitle">Responsibilities:</h5>
+                  <ul className="details-list">
+                    {exp.responsibilities.map((resp, idx) => (
+                      <li key={idx}>{resp}</li>
+                    ))}
+                  </ul>
                 </div>
               </div>
             </div>

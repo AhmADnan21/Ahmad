@@ -14,10 +14,11 @@ const Education = () => {
     {
       type: 'certification',
       icon: <FaCertificate />,
-      title: 'ISTQB Certified Technical Test Analyst',
-      institution: 'International Software Testing Qualifications Board',
+      title: 'ISTQB Certified – Technical Test Analyst (Advanced Level)',
+      institution: 'Coursera',
       year: 'Advanced Level',
-      description: 'Advanced level certification demonstrating expertise in technical testing and test automation'
+      description: 'Advanced level certification demonstrating expertise in technical testing and test automation',
+      link: 'https://coursera.org/share/6ac7407a508623e9ecba90556c562df3'
     }
   ]
 
@@ -49,6 +50,16 @@ const Education = () => {
                   {item.year}
                 </div>
                 <p className="education-description">{item.description}</p>
+                {item.link && (
+                  <a 
+                    href={item.link} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="verification-link"
+                  >
+                    View Certificate →
+                  </a>
+                )}
               </div>
             </div>
           ))}

@@ -11,9 +11,9 @@ const Contact = () => {
     },
     {
       icon: <FaPhone />,
-      label: 'Phone',
+      label: 'Phone (WhatsApp)',
       value: '+60 1139 279164',
-      link: 'tel:+60113927916'
+      link: 'https://wa.me/601139279164'
     },
     {
       icon: <FaMapMarkerAlt />,
@@ -28,13 +28,13 @@ const Contact = () => {
       icon: <FaLinkedin />,
       label: 'LinkedIn',
       username: 'Ahmad Abdullah',
-      link: 'https://www.linkedin.com/in/ahmad-abdullah'
+      link: 'https://www.linkedin.com/in/ahmad-abdullah-6878a424b/'
     },
     {
       icon: <FaGithub />,
       label: 'GitHub',
       username: 'View My Projects',
-      link: 'https://github.com/ahmadabdullah'
+      link: 'https://github.com/AhmADnan21'
     }
   ]
 

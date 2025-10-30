@@ -11,11 +11,11 @@ const Hero = () => {
               Hi, I'm <span className="gradient-text">Ahmad Abdullah</span>
             </h1>
             <h2 className="hero-subtitle">Senior QA Automation Engineer</h2>
-            <p className="hero-description">
-              Detail-oriented Senior QA Automation Engineer with <strong>5+ years of experience</strong> in manual and automation testing for web, mobile, and API applications. Skilled in Selenium, Appium, and BDD frameworks, with strong expertise in manual API testing using Postman.
+            <p className="hero-location">
+              Based in Kuala Lumpur, Malaysia | Open to Remote & On-Site Roles
             </p>
             <p className="hero-description">
-              Experienced in Agile/Scrum environments, bug reporting, and cross-functional collaboration. Adept at using AI tools (Cursor AI) to accelerate automation development while maintaining full control of code quality.
+              I'm a <strong>Senior QA Automation Engineer</strong> with <strong>5+ years of experience</strong> testing <strong>web, mobile, and API applications</strong>. I specialize in building <strong>scalable test automation</strong> using <strong>Selenium, Appium, and BDD frameworks</strong> — combining precision, speed, and quality.
             </p>
 
             <div className="hero-info">
@@ -38,12 +38,22 @@ const Hero = () => {
                 Get In Touch
               </a>
               <a 
-                href="https://www.linkedin.com/in/ahmad-abdullah" 
+                href="https://www.linkedin.com/in/ahmad-abdullah-6878a424b/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="btn btn-secondary"
               >
                 <FaLinkedin /> LinkedIn
+              </a>
+              <a 
+                href="#" 
+                className="btn btn-secondary"
+                onClick={(e) => {
+                  e.preventDefault();
+                  alert('CV download link will be added soon. Please contact me directly for my latest CV.');
+                }}
+              >
+                <FaDownload /> Download CV
               </a>
             </div>
           </div>
