@@ -252,7 +252,7 @@ Senior QA Automation Engineer
 
 - 📧 Email: [ahmad7adnan7@gmail.com](mailto:ahmad7adnan7@gmail.com)
 - 📱 Phone: +60 1139 279164
-- 💼 LinkedIn: [Ahmad Abdullah](https://www.linkedin.com/in/ahmad-abdullah)
+- 💼 LinkedIn: [Ahmad Abdullah](https://www.linkedin.com/in/ahmad-abdullah-6878a424b)
 - 🌐 Portfolio: [https://ahmadabdullah.netlify.app](https://ahmadabdullah.netlify.app)
 
 ## 📝 License

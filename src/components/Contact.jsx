@@ -28,7 +28,7 @@ const Contact = () => {
       icon: <FaLinkedin />,
       label: 'LinkedIn',
       username: 'Ahmad Abdullah',
-      link: 'https://www.linkedin.com/in/ahmad-abdullah-6878a424b/'
+      link: 'https://www.linkedin.com/in/ahmad-abdullah-6878a424b'
     },
     {
       icon: <FaGithub />,
@@ -70,7 +70,12 @@ const Contact = () => {
                   <div className="contact-card-content">
                     <h4>{info.label}</h4>
                     {info.link ? (
-                      <a href={info.link} className="contact-link">
+                      <a 
+                        href={info.link} 
+                        className="contact-link"
+                        target={info.link.startsWith('https://wa.me') ? '_blank' : undefined}
+                        rel={info.link.startsWith('https://wa.me') ? 'noopener noreferrer' : undefined}
+                      >
                         {info.value}
                       </a>
                     ) : (

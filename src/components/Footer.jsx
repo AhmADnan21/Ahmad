@@ -39,7 +39,7 @@ const Footer = () => {
               </li>
               <li>
                 <FaLinkedin />
-                <a href="https://www.linkedin.com/in/ahmad-abdullah" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/ahmad-abdullah-6878a424b" target="_blank" rel="noopener noreferrer">
                   LinkedIn Profile
                 </a>
               </li>

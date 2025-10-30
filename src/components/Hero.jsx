@@ -38,7 +38,7 @@ const Hero = () => {
                 Get In Touch
               </a>
               <a 
-                href="https://www.linkedin.com/in/ahmad-abdullah-6878a424b/" 
+                href="https://www.linkedin.com/in/ahmad-abdullah-6878a424b" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="btn btn-secondary"
@@ -46,12 +46,9 @@ const Hero = () => {
                 <FaLinkedin /> LinkedIn
               </a>
               <a 
-                href="#" 
+                href="/AHMAD%20ABDULLAH%20QA%20Engineer%20CV.pdf"
+                download
                 className="btn btn-secondary"
-                onClick={(e) => {
-                  e.preventDefault();
-                  alert('CV download link will be added soon. Please contact me directly for my latest CV.');
-                }}
               >
                 <FaDownload /> Download CV
               </a>
